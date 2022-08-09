@@ -96,7 +96,7 @@ function appNumFoto(){
     const img = new Image()
     img.src = `../img-pic/${getTimeDay()}/${numFoto}.jpg`
     img.onload = () =>{
-        body.style.backgroundImage = `url(../img-pic/${getTimeDay()}/${numFoto}.jpg)`
+        body.style.backgroundImage = `url(./img-pic/${getTimeDay()}/${numFoto}.jpg)`
     }  
   
 }
